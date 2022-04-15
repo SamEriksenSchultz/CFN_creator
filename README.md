@@ -31,7 +31,7 @@ these steps are only necessary the first time using this program on a computer:
 <details><summary>show steps</summary>
 once setup is complete, follow these instructions to create the necessary CFN files
 
-1. to launch the application, press the windows key and type "cfn creator", and press enter (alternatively you can launch from the shortcut you created in stpe 5)
+1. to launch the application, press the windows key and type "cfn creator", and press enter (alternatively you can launch from the shortcut you created in step 5)
   
   ![image](https://user-images.githubusercontent.com/31769614/163593714-f35a9d45-8c51-4635-83c6-c6219db15d11.png)
 
