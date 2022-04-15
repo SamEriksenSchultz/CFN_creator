@@ -10,16 +10,21 @@
 these steps are only necessary the first time using this program on a computer:
 
 1. download the repository as a ZIP file by clicking the green "code" button and clicking "download ZIP"
-  
-2. save the file, click "ok"
-  
-3. find the file in your downloads folder (quickly navigate to this folder by pressing Win + E, and selecting "downloads" from the left sidebar). right-click it to bring up the options menu
-  
-4. select "extract all" from the options, confirm the extraction location, then click "extract"
 
-5. click into the folder "CFN_file_creator" and locate the file "setup.bat". double-click the file to run it. a cmd window will briefly open and close automatically
+  ![image](https://user-images.githubusercontent.com/31769614/163592198-1bf0aea7-d876-4919-8cda-1babddb196b0.png)
+  
+2. find the file in your downloads folder (quickly navigate to this folder by pressing Win + E, and selecting "downloads" from the left sidebar). right-click it to bring up the options menu
+  
+  ![image](https://user-images.githubusercontent.com/31769614/163592362-85b41a9e-4513-42e9-a973-229c646e8b63.png)
 
-![image](https://user-images.githubusercontent.com/31769614/162812587-f49b5a0e-4bda-4663-bfed-4efb5bd76ebc.png)
+3. select "extract all" from the options, confirm the extraction location, then click "extract"
+  
+  ![image](https://user-images.githubusercontent.com/31769614/163592421-00b3813d-18db-4316-9e89-eea90ee32396.png)
+
+4. (optional) in the folder "CFN_creator-main", go to the folder "dist", then "CFN_file". inside this folder there should be an exe file called "CFN creator.exe". for easier access, simply, create a shortcut by right-clicking the file, selecting "send to" from the options menu, and clicking "Desktop (create shortcut)" from the dropdown
+
+![image](https://user-images.githubusercontent.com/31769614/163593252-052b03c9-f832-4d35-8c90-6276e387c4b2.png)
+
 </details>
 
 ### creating CFN files
