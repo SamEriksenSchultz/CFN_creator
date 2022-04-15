@@ -3,7 +3,7 @@
 ## functionality:
 >CFN file creation (from 30 seconds per file to instant)
 
-## how to use
+## how to use:
 
 ### first-time setup
 <details><summary>show steps</summary>
