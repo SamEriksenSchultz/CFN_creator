@@ -53,6 +53,7 @@ for i in range(sheet.nrows-1):
   #creates CFN file 
   f = open(destination_folder + "\\" + file_name + ".CFN", 'x')
   f.write("SMARTECARTE_ENABLED=1\nSMARTECARTE_DEFAULT_AMOUNT="+price+"\nSMARTECARTE_UCR_ID="+UCR_ID)
+  f.close
   
   
 while True:
