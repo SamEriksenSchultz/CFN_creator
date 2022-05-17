@@ -29,7 +29,7 @@ while True:
         file_path = values["file_path_input"]
         
         #throws error if invalid file type
-        if not(file_path.endswith(".xlsx" || "xlsm" || "xltx" || "xltm")):
+        if not(file_path.endswith(".xlsx" or "xlsm" or "xltx" or "xltm")):
             raise Exception("Incorrect file type. Accepted file types include: xlsx/xlsm/xltx/xltm")
             
         #gets price from user input
