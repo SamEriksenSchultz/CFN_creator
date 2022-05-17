@@ -30,6 +30,7 @@ while True:
         
         #throws error if invalid file type
         if not(file_path.endswith(".xlsx" or "xlsm" or "xltx" or "xltm")):
+            sg.popup("Incorrect file type. Accepted file types include: xlsx/xlsm/xltx/xltm")
             raise Exception("Incorrect file type. Accepted file types include: xlsx/xlsm/xltx/xltm")
             
         #gets price from user input
@@ -63,6 +64,7 @@ for col in range(1, max_col + 1):
 #makes sure UCR-ID column was indentifed
 if(UCR_ID_col == None):
     raise Exception("Could not find UCR-ID column; column should contain text \"UCR ID\"")
+    sg.popup("Could not find UCR-ID column; column should contain text \"UCR ID\"")
     
 #gets UCR-IDs from spreadsheet
 
@@ -87,4 +89,4 @@ for i in range(2, num_rows):
   file.flush()
   file.close
   
-exit()
+sg.popup("Files created")
