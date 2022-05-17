@@ -62,7 +62,7 @@ for col in range(1, max_col + 1):
 
 #makes sure UCR-ID column was indentifed
 if(UCR_ID_col == None):
-    raise Exception("Could not find UCR-ID column; column should contain text \"UCR ID\""
+    raise Exception("Could not find UCR-ID column; column should contain text \"UCR ID\"")
     
 #gets UCR-IDs from spreadsheet
 
